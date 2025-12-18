@@ -1,3 +1,9 @@
+USE LibraryDB;
+GO
+
+IF OBJECT_ID('vw_BooksWithCategory', 'V') IS NOT NULL DROP VIEW vw_BooksWithCategory;
+GO
+
 CREATE VIEW vw_BooksWithCategory AS
 SELECT 
     B.BookID,
@@ -8,7 +14,10 @@ SELECT
     C.CategoryName
 FROM BOOK B
 JOIN CATEGORY C ON B.CategoryID = C.CategoryID;
+GO
 
+IF OBJECT_ID('AddMember', 'P') IS NOT NULL DROP PROCEDURE AddMember;
+GO
 
 CREATE PROCEDURE AddMember
     @Name NVARCHAR(80),
@@ -19,7 +28,10 @@ BEGIN
     INSERT INTO MEMBER (Name, Phone, Email)
     VALUES (@Name, @Phone, @Email);
 END;
+GO
 
+IF OBJECT_ID('BorrowBook', 'P') IS NOT NULL DROP PROCEDURE BorrowBook;
+GO
 
 CREATE PROCEDURE BorrowBook
     @BookID INT,
@@ -34,7 +46,10 @@ BEGIN
     INSERT INTO LOAN (BookID, MemberID, StaffID, LoanDate, Status)
     VALUES (@BookID, @MemberID, @StaffID, GETDATE(), 'Borrowed');
 END;
+GO
 
+IF OBJECT_ID('ReturnBook', 'P') IS NOT NULL DROP PROCEDURE ReturnBook;
+GO
 
 CREATE PROCEDURE ReturnBook
     @LoanID INT
@@ -51,12 +66,4 @@ BEGIN
     SET Available = 1
     WHERE BookID = @BookID;
 END;
-
-
-CREATE FUNCTION CountBorrowedBooks()
-RETURNS INT
-AS
-BEGIN
-    RETURN (SELECT COUNT(*) FROM LOAN WHERE Status = 'Borrowed');
-END;
-
+GO
