@@ -12,9 +12,10 @@ namespace final_windows.DB
         public static MySqlConnection GetConnection()
         {
             string connectionString =
-                "server=localhost;database=LibraryDB;user=root;password=;root123";
+                "server=localhost;database=LibraryDB;user=root;password=root123;";
 
             return new MySqlConnection(connectionString);
         }
     }
 }
+
