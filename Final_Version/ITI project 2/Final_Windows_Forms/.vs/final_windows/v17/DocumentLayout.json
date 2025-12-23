@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\ITI project 2\\Final_Windows_Forms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2221B2A8-1A91-4460-B2B7-828D0F48607A}|final_windows.csproj|C:\\Users\\HP\\Desktop\\ITI project 2\\Final_Windows_Forms\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2221B2A8-1A91-4460-B2B7-828D0F48607A}|final_windows.csproj|solutionrelative:loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2221B2A8-1A91-4460-B2B7-828D0F48607A}|final_windows.csproj|c:\\users\\hp\\desktop\\iti project 2\\final_windows_forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2221B2A8-1A91-4460-B2B7-828D0F48607A}|final_windows.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoanForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ITI project 2\\Final_Windows_Forms\\LoanForm.cs",
+              "RelativeDocumentMoniker": "LoanForm.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ITI project 2\\Final_Windows_Forms\\LoanForm.cs [Design]",
+              "RelativeToolTip": "LoanForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:38:12.773Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\ITI project 2\\Final_Windows_Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\ITI project 2\\Final_Windows_Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:33:25.105Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
