@@ -1,7 +1,7 @@
-Library Management System (WinForms)
+## Library Management System (WinForms)
 A desktop-based Library Management System built using C# WinForms and SQL Server. The application allows librarians to manage books, categories, members, and track book loan transactions efficiently.
 
-🚀 Features
+# Features
 Book Management: Add, update, delete, and list books with details like Title, Author, and Price.
 
 Category Management: Organize books into different categories (e.g., Science, History, Fiction).
@@ -12,14 +12,14 @@ Loan Tracking: Record book borrowing transactions, track loan dates, and return 
 
 Relational Database: Uses SQL Server with foreign key constraints to ensure data integrity.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend: C# WinForms (.NET Framework / .NET Core)
 
 Backend: SQL Server
 
 Database Access: ADO.NET (Microsoft.Data.SqlClient)
 
-📂 Database Schema
+# 📂 Database Schema
 The project consists of the following main tables:
 
 BOOK: Stores book details and links to categories.
